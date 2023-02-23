@@ -1,0 +1,16 @@
+.banner {
+  height: 40vh;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.banner h1 {
+  color: white;
+  font-family: $headers-font;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr repeat(3);
+  gap: 10px;
+}
